@@ -64,7 +64,8 @@ const appLoader = async (app: Express, router: any) => {
 
     // 404 Middleware
     app.use((req, res) => {
-      res.status(404).send({
+      res.status(404)
+      .send({
         success: false,
         data: undefined,
         message: "The resource you are looking for is not found.",
