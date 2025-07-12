@@ -16,7 +16,7 @@ const appLoader = async (app: Express, router: any) => {
 
     // Express Middlewares
     const allowedOrigins = [
-    'https://project-management-frontend-ivory.vercel.app/',
+    'https://project-management-frontend-ivory.vercel.app',
     'http://localhost:5173'
   ];
 
