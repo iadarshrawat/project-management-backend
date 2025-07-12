@@ -18,7 +18,7 @@ const appLoader = async (app: Express, router: any) => {
     const allowedOrigins = [
     'https://project-management-frontend1.netlify.app',
     'http://localhost:5173'
-  ];
+  ];  
 
     app.use(
       cors({
