@@ -98,7 +98,6 @@ router.get('/:id/tasks', async (req: any, res) => {
       .json({ message: 'Board not found' });
     }
 
- 
   const tasks = await TASK.find({ _boardId: boardId })
       .sort({ createdAt: -1 })
       .lean();
