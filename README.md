@@ -39,3 +39,14 @@ To start the express server, run the following
  ```bash
 npm run watch
 ```
+
+
+## Frontend Repository
+* You can find the frontend repo here:
+ https://github.com/iadarshrawat/project-management-frontend
+
+* Live Demo
+ Live App: https://project-management-frontend1.netlify.app/
+
+* YouTube Demo
+ Watch Demo: https://youtu.be/MROo4RDN8tk
